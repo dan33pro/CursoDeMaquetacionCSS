@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+header .header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #47cfac;
+}
+
+header .header-icons-container .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+header .header-icons-container .icons a {
+    padding: 0 10px;
+}
+
+header .icons span {
+    color: white;
+}
+
+header nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+header nav .nav-logo-container {
+    margin-left: 50px;
+}
+
+nav .nav-logo-container a img {
+    width: 220px;
+    margin-top: 10px;
+}
+
+nav .profiel-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .profiel-link a {
+    color: black;
+    border-bottom: 1px solid black;
+    font-size: 1.6rem;
+}
+
+.home-main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    width: 100%;
+    place-items: center;
+    height: calc(100vh - 140px);
+    background-image: url('../assets/img/Cover.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-main section {
+    grid-column: 2;
+    display: grid;
+    height: 300px;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+}
+
+.home-main section .home-main--text {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 8px;
+    text-align: center;
+}
+
+.home-main .home-main--button {
+    width: 80px;
+    height: 40px;
+    background-color: #47cfac;
+    border: none;
+}
+
+.home-main .home-main--button a {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.blogs-main {
+    display: grid;
+}
+
+.last-blog {
+    background-color: #e6e9ed;
+}
+
+.blogs-news-container {
+    display: grid;
+    margin: 0 auto;
+    padding: 20px 20px 40px;
+    grid-template-columns: 2fr 1fr;
+    max-width: 1200px;
+    align-items: center;
+}
+
+.blogs-news {
+    display: grid;
+    max-width: 1100px;
+    margin: 0 auto;
+    grid-template-rows: 1fr auto;
+}
+
+.blogs-news h2 {
+    font-size: 1.8rem;
+}
+
+.blogs-news-container .blogs-news img {
+    width: 85%;
+    max-width: 800px;
+}
+
+.blogs-news-info-container {
+    max-width: 350px;
+    display: grid;
+}
+
+.blogs-news-info-container h2 {
+    font-size: 2rem;
+}
+
+.blogs-news-info-container p {
+    margin-bottom: 35px;
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+.blogs-news-info-container a {
+    width: max-content;
+}
+
+.blogs-posts-container {
+    padding: 0 50px 40px;
+}
+
+.blogs-posts-container h2 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.blogs-button {
+    border: 1px solid #47cfac;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+}
+
+.blogs-container-grid {
+    display: grid;
+    max-width: 1200px;
+    margin: 40px auto;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px;
+}
+
+.blogs-posts-container .post-container {
+    padding: 10px;
+}
+
+.post-container img {
+    width: 100%;
+}
+
+.post-container h4 {
+    font-size: 1.4rem;
+}
+
+.post-container p {
+    font-size: 1.1rem;
+    margin-bottom: 35px;
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: #22272d;
+    border-top: 35px solid #47cfac;
+}
+
+footer p {
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.blogpost-img-container {
+    padding: 0 50px 20px;
+}
+
+.blogpost-img-container img {
+    width: 100%;
+}
+
+.blogpost-main-container {
+    padding: 0 50px 40px;
+}
+
+.blogpost-main-container h3 {
+    padding: 15px 0;
+    border-bottom: 1px solid #47cfac;
+    font-size: 1.4rem;
+}
+
+.blogpost-main-container article h1 {
+    font-size: 3rem;
+}
+
+.blogpost-main-container article p {
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+.contact-main-container {
+    display: flex;
+    width: 100%;
+    min-height: 150px;
+    background-color: #E6E9ED;
+    padding: 50px 0;
+}
+
+.contact-main-container div {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    width: 49.5%;
+    max-width: 500px;
+    height: 100%;
+}
+
+.contact-main-container div a {
+    align-self: flex-start;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+.contact-main-container .contact-left, .contact-main-container .contact-right {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-main-container div img {
+    width: 100px;
+    height: 100px;
+}
+
+.profile-main-container {
+    padding: 70px 40px;
+    background-color: #E6E9ED;
+    margin-bottom: 50px;
+}
+
+.profile-main-container img {
+    width: 340px;
+    margin-right: 30px;
+}
+
+.profile-main-container p {
+    font-size: 1.6rem;
+    text-align: justify;
+}
+
+.profile-main-container h2 {
+    font-size: 2rem;
+}
+
+.profile-main-container .profile-container {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 1000px;
+}
+
+.profile-main-projects {
+    padding: 0 50px 40px;
+}
+
+.profile-main-projects h3 {
+    border-bottom: 1px solid #E6E9ED;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.projects-main-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.project-container {
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
