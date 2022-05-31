@@ -166,7 +166,10 @@ nav .profiel-link a {
 .blogs-news-info-container p {
     margin-bottom: 35px;
     font-size: 1.4rem;
+<<<<<<< HEAD
     text-align: justify;
+=======
+>>>>>>> beae4f1e6146ed459980997f8d693fd2dd141246
 }
 
 .blogs-news-info-container a {
@@ -253,7 +256,10 @@ footer p {
 
 .blogpost-main-container article p {
     font-size: 1.4rem;
+<<<<<<< HEAD
     text-align: justify;
+=======
+>>>>>>> beae4f1e6146ed459980997f8d693fd2dd141246
 }
 
 .contact-main-container {
@@ -291,6 +297,7 @@ footer p {
     height: 100px;
 }
 
+<<<<<<< HEAD
 .profile-main-container {
     padding: 70px 40px;
     background-color: #E6E9ED;
@@ -340,3 +347,5 @@ footer p {
     text-align: justify;
 }
 
+=======
+>>>>>>> beae4f1e6146ed459980997f8d693fd2dd141246
